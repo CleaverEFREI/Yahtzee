@@ -134,7 +134,7 @@ class possibility {
                 valid4++;
             }
         }
-        if (valid3 == 1 && valid4 == 1) {
+        if (valid3 >= 1 && valid4 >= 1) {
             for (byte b : x) {
                 if (b == 2) {
                     for (byte b2 : x) {

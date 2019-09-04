@@ -12,7 +12,7 @@ public class relance {
 
     public static void main(@NotNull byte[] D) {
         byte[] num;
-        out.println("My dices : "+Arrays.toString(D));
+        out.println("My dices : " + Arrays.toString(D));
         num = menu();
         roll.main(D, num);
     }
@@ -39,6 +39,7 @@ public class relance {
         for (int i = 0; i < n; i++) {
             selection[i] = (byte) s.nextInt();
         }
+        s.close();
         return selection;
     }
 }

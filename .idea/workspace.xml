@@ -8,15 +8,19 @@
   <component name="ChangeListManager">
     <list default="true" id="5d50925e-355b-4b4a-9311-d6d7dde12f23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/dices/relance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/dices/relance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/grid/possibility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/grid/possibility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/gailhac/dices/relance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/dices/relance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/gailhac/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/gailhac/grid/possibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/grid/possibility.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +47,9 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="left" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="right" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -150,8 +157,18 @@
       <workItem from="1567515692499" duration="11242000" />
       <workItem from="1567529762119" duration="21519000" />
       <workItem from="1567602240826" duration="1189000" />
-      <workItem from="1567603500778" duration="535000" />
+      <workItem from="1567603500778" duration="3949000" />
+      <workItem from="1567611998949" duration="777000" />
+      <workItem from="1567619312450" duration="358000" />
     </task>
+    <task id="LOCAL-00001" summary="Dictionaries">
+      <created>1567604122566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567604122566</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,5 +186,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dictionaries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dictionaries" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Yahtzee$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1567610593478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>fr.gailhac.main.*</FILTER>
+    </SUITE>
   </component>
 </project>
