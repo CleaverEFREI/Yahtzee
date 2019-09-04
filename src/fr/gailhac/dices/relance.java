@@ -27,6 +27,7 @@ public class relance {
     @NotNull
     private static byte[] menu() {
 
+        @SuppressWarnings("Resource leak")
         Scanner s = new Scanner(in);
         int n = -1;
         while (n < 0 || n > 5) {

@@ -57,6 +57,7 @@ public class check {
         }
 
         // Selection :
+        @SuppressWarnings("Resource leak")
         Scanner s = new Scanner(System.in);
         int selection;
         System.out.println("Enter the elements you wan't to do:\n ");

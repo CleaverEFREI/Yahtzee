@@ -8,21 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5d50925e-355b-4b4a-9311-d6d7dde12f23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/dices/relance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/dices/relance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/dices/roll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/dices/roll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/grid/check.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/grid/check.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/grid/memory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/grid/memory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/grid/possibility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/grid/possibility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/main/random.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/main/random.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/players/player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/players/player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/gailhac/dices/relance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/dices/relance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/gailhac/dices/roll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/dices/roll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/gailhac/grid/check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/grid/check.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/gailhac/grid/memory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/grid/memory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/gailhac/grid/possibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/grid/possibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/gailhac/main/random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/main/random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/gailhac/players/player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/players/player.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +158,7 @@
       <workItem from="1567602240826" duration="1189000" />
       <workItem from="1567603500778" duration="3949000" />
       <workItem from="1567611998949" duration="777000" />
-      <workItem from="1567619312450" duration="3774000" />
+      <workItem from="1567619312450" duration="4390000" />
     </task>
     <task id="LOCAL-00001" summary="Dictionaries">
       <created>1567604122566</created>
@@ -193,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567620689783</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New version">
+      <created>1567623716369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567623716369</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

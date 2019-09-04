@@ -115,7 +115,7 @@ class possibility {
                 save = b;
             }
             if (sim(x, b) >= 2) {
-                if (b != save && save != -1) return 25;
+                if (b != save && save != -1) return 25; //todo: care here perhaps need a fix
             }
         }
         return 0;
