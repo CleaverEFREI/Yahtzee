@@ -10,6 +10,8 @@ class Main {
 
     public static void main(String[] args) {
 
+        // Selection of n* player
+
         int nbplayer = player.request();
         if (nbplayer <= 0) {
             return;
@@ -18,26 +20,40 @@ class Main {
             System.out.println("Too much for your skill, try less");
             return;
         }
+
+        // memory initial
+
         int[][] mem = memory.iniMem(nbplayer);
         boolean[][] membool = memory.iniMemBool(nbplayer);
+
+        // init. finish test
+
         boolean done = false;
         while (!done) {
+
+            // start game
+
             for (int joueur = 1; joueur <= nbplayer; joueur++) {
                 System.out.println("-------------------------");
                 System.out.println("Player " + joueur + " :\n");
+                //roll dice
+
                 byte[] dices = roll.main(5);
                 for (int i = 0; i <= 1; i++) {
+                    //reroll dice
                     relance.main(dices);
                 }
+
                 int checkeur = -1;
                 while (checkeur < 0) {
+                    // secure the selection
                     int selection = check.menu(dices, membool, nbplayer - 1);
                     checkeur = memory.edit(selection, mem, membool, joueur, dices);
-                    //System.out.println(Arrays.deepToString(mem));
-                    //System.out.println(Arrays.deepToString(membool));
                     if (checkeur <= 0) System.out.println("Error this was already used");
                 }
             }
+
+            // test if game is finish
 
             for (int i = 0; i < 13; i++) {
                 done = true;
@@ -48,6 +64,9 @@ class Main {
 
             }
         }
+
+        // print score
+
         int[] memScore = memory.iniMemScore(nbplayer);
         for (int j = 0; j < nbplayer; j++) {
             int score = memory.score(mem, j);
@@ -56,6 +75,8 @@ class Main {
         }
 
         int max = memory.max(memScore);
+
+        // print winner
 
         for (int j = 0; j < nbplayer; j++) {
             if (memScore[j] == max) {
