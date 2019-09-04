@@ -64,7 +64,7 @@ class possibility {
         return somme;
     }
 
-    // All posibility of my grid
+    // All possibility of my grid
 
     static int Aces(@NotNull byte[] x) {
 
