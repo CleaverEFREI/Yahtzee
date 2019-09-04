@@ -4,6 +4,7 @@ import org.jetbrains.annotations.NotNull;
 
 class possibility {
 
+    // Script for calculate
 
     private static int test(@NotNull byte[] x, int n) {
         int cpt = 0;
@@ -63,6 +64,8 @@ class possibility {
         return somme;
     }
 
+    // All posibility of my grid
+
     static int Aces(@NotNull byte[] x) {
 
         return test(x, 1);
@@ -112,11 +115,7 @@ class possibility {
                 save = b;
             }
             if (sim(x, b) >= 2) {
-                if (b != save && save != -1) {
-                    for (byte ignored : x) {
-                        return 25;
-                    }
-                }
+                if (b != save && save != -1) return 25;
             }
         }
         return 0;

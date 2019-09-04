@@ -4,6 +4,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class memory {
 
+    // Init. memory :
     @NotNull
     public static int[][] iniMem(int Joueurs) {
         return new int[Joueurs][13];
@@ -18,6 +19,8 @@ public class memory {
     public static int[] iniMemScore(int Joueurs) {
         return new int[Joueurs];
     }
+
+    // Max / Edit / Score mem. test / modify.
 
     public static int max(@NotNull int[] t) {
         int maximum = t[0];   // start with the first value

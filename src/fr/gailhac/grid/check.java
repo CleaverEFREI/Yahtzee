@@ -9,9 +9,13 @@ public class check {
 
     public static int menu(@NotNull byte[] d, boolean[][] bool, int player) {
 
+        // Display choices
         System.out.println("My dices : " + Arrays.toString(d));
         System.out.println("Choose one or more from these choices");
         System.out.println("-------------------------");
+
+        // Display what i can do
+
         if (!bool[player][0]) {
             System.out.println("1 - " + possibility.Aces(d) + " points for the aces");
         }
@@ -51,6 +55,8 @@ public class check {
         if (!bool[player][12]) {
             System.out.println("13 - " + possibility.Chance(d) + " points for the chance");
         }
+
+        // Selection :
         Scanner s = new Scanner(System.in);
         int selection;
         System.out.println("Enter the elements you wan't to do:\n ");

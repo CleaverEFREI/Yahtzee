@@ -6,6 +6,10 @@ import org.jetbrains.annotations.NotNull;
 
 public class roll {
 
+    // Overcharge main :
+
+    // For full reroll or first time :
+
     @NotNull
     public static byte[] main(int dice) {
         byte[] D = new byte[]{};
@@ -17,6 +21,8 @@ public class roll {
         return D;
 
     }
+
+    // For not full reroll :
 
     static void main(@NotNull byte[] D, @NotNull byte[] num) {
 
@@ -32,6 +38,8 @@ public class roll {
 
     }
 
+    // Replace in array
+
     private static void replaceArray(@NotNull byte[] D, int nb, int rng) {
 
         for (int i = 0; i < D.length; i++) {
@@ -41,6 +49,8 @@ public class roll {
             }
         }
     }
+
+    // Add in array
 
     @NotNull
     private static byte[] addToArray(@NotNull byte[] initialArray, int newValue) {
