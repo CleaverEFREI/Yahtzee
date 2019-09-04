@@ -6,7 +6,7 @@ import fr.gailhac.grid.check;
 import fr.gailhac.grid.memory;
 import fr.gailhac.players.player;
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
 

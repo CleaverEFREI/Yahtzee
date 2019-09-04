@@ -12,7 +12,7 @@ public class relance {
 
     public static void main(@NotNull byte[] D) {
         byte[] num;
-        out.println(Arrays.toString(D));
+        out.println("My dices : "+Arrays.toString(D));
         num = menu();
         roll.main(D, num);
     }
