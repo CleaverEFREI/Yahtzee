@@ -108,16 +108,19 @@ class possibility {
 
     static int Full(@NotNull byte[] x) {
 
-        int save = -1;
+        int save;
 
         for (byte b : x) {
-            if (sim(x, b) >= 3) {
-                save = b;
-            }
             if (sim(x, b) >= 2) {
-                if (b != save && save != -1) return 25; //todo: care here perhaps need a fix
+                save = b;
+                for (byte b2 : x) {
+                    if (sim(x, b2) >= 3) {
+                        if (b2 != save) return 25;
+                    }
+                }
             }
         }
+
         return 0;
 
     }

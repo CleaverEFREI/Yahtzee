@@ -10,8 +10,10 @@ class Main {
 
     public static void main(String[] args) {
 
-        // Selection of n* player
+        // Help for player
+        player.IniHelp();
 
+        // Selection of n* player
         int nbplayer = player.request();
         if (nbplayer <= 0) {
             return;
@@ -22,7 +24,7 @@ class Main {
         }
 
         // memory initial
-
+        System.out.println("Let the game begin !");
         int[][] mem = memory.iniMem(nbplayer);
         boolean[][] membool = memory.iniMemBool(nbplayer);
 
@@ -34,8 +36,10 @@ class Main {
             // start game
 
             for (int joueur = 1; joueur <= nbplayer; joueur++) {
-                System.out.println("-------------------------");
+                System.out.println("\n\n-------------------------");
                 System.out.println("Player " + joueur + " :\n");
+                System.out.println("-------------------------");
+                System.out.println("Player score :\n" + player.score(nbplayer, mem, joueur) + "\n");
                 //roll dice
 
                 byte[] dices = roll.main(5);
@@ -47,7 +51,7 @@ class Main {
                 int checkeur = -1;
                 while (checkeur < 0) {
                     // secure the selection
-                    int selection = check.menu(dices, membool, nbplayer - 1);
+                    int selection = check.menu(dices, membool, joueur - 1);
                     checkeur = memory.edit(selection, mem, membool, joueur, dices);
                     if (checkeur <= 0) System.out.println("Error this was already used");
                 }
@@ -67,13 +71,7 @@ class Main {
 
         // print score
 
-        int[] memScore = memory.iniMemScore(nbplayer);
-        for (int j = 0; j < nbplayer; j++) {
-            int score = memory.score(mem, j);
-            memScore[j] = score;
-            System.out.println("Player" + (j + 1) + " have " + score + " pts");
-        }
-
+        int[] memScore = player.score(nbplayer, mem);
         int max = memory.max(memScore);
 
         // print winner
