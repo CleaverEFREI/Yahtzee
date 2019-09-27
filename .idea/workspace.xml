@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d50925e-355b-4b4a-9311-d6d7dde12f23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/grid/possibility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/grid/possibility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/players/player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/players/player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/gailhac/grid/possibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/grid/possibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/gailhac/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/gailhac/players/player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/players/player.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +162,7 @@
       <workItem from="1567718523513" duration="1966000" />
       <workItem from="1568302665673" duration="85000" />
       <workItem from="1568725869484" duration="55000" />
-      <workItem from="1569547237043" duration="3543000" />
+      <workItem from="1569547237043" duration="3881000" />
     </task>
     <task id="LOCAL-00001" summary="Dictionaries">
       <created>1567604122566</created>
@@ -224,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567624767829</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="New version">
+      <created>1569550800423</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569550800423</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -166,7 +166,7 @@ class possibility {
     static int LgStraight(@NotNull byte[] x) {
 
         if (sim(x, 1) == 1 ^ sim(x, 6) == 1) {
-            for (int i = 0; i < x.length; i++) {
+            for (int i = 1; i <= 6; i++) {
                 if (sim(x, i) > 1) {
                     return 0;
                 }
