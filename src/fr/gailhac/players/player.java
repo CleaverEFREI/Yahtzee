@@ -49,15 +49,15 @@ public class player {
 
     private static boolean help() {
         System.out.println("Do you need help with the game ?");
-        System.out.println("(y/n)");
-        Scanner s = new Scanner(System.in);
-        char help;
-        help = s.next().charAt(0);
-        return help == 'y';
+        return ScanHR2();
     }
 
     private static boolean rules() {
         System.out.println("Do you need help with the rules ?");
+        return ScanHR2();
+    }
+
+    private static boolean ScanHR2() {
         System.out.println("(y/n)");
         Scanner s = new Scanner(System.in);
         char help;

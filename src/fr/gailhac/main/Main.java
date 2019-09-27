@@ -36,10 +36,12 @@ class Main {
             // start game
 
             for (int joueur = 1; joueur <= nbplayer; joueur++) {
-                System.out.println("\n\n-------------------------");
-                System.out.println("Player " + joueur + " :\n");
-                System.out.println("-------------------------");
-                System.out.println("Player score :\n" + player.score(nbplayer, mem, joueur) + "\n");
+                System.out.println("\n\n-------------------------" +
+                        "\nPlayer " + joueur + " :\n" +
+                        "-------------------------" +
+                        "\nPlayer score :        " + player.score(nbplayer, mem, joueur) +
+                        "\n-------------------------" +
+                        "\n");
                 //roll dice
 
                 byte[] dices = roll.main(5);

@@ -17,7 +17,7 @@ public class relance {
         out.println("My dices : " + Arrays.toString(D));
         num = menu();
         roll.main(D, num);
-        if(num.length == 5){
+        if (num.length == 5) {
             roll.main(5);
         }
     }
@@ -35,7 +35,7 @@ public class relance {
             n = s.nextInt();
             if (n < 0 || n > 5) out.println("Error");
         }
-        if (n == 5){
+        if (n == 5) {
             return new byte[]{1, 2, 3, 4, 5};
         }
         out.println("\n-------------------------");
