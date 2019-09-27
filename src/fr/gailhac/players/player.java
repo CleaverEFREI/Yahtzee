@@ -1,6 +1,7 @@
 package fr.gailhac.players;
 
 import fr.gailhac.grid.memory;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.Scanner;
 
@@ -20,6 +21,7 @@ public class player {
 
     }
 
+    @NotNull
     public static int[] score(int nbplayer, int[][] mem) {
         int[] memScore = memory.iniMemScore(nbplayer);
         for (int j = 0; j < nbplayer; j++) {
@@ -42,8 +44,13 @@ public class player {
     public static int request() {
         System.out.println("How many players ?");
         Scanner s = new Scanner(System.in);
-        int player;
-        player = s.nextInt();
+        int player = 1;
+        try {
+            player = s.nextInt();
+        } catch (Exception e) {
+            System.out.println("Something went wrong.\n");
+            System.out.println("Initializing for 1 player\n");
+        }
         return player;
     }
 

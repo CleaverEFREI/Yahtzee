@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class check {
 
-    public static int menu(@NotNull byte[] d, boolean[][] bool, int player) {
+    public static int menu(@NotNull byte[] d, @NotNull boolean[][] bool, int player) {
 
         // Display choices
         System.out.println("My dices : " + Arrays.toString(d));
@@ -57,11 +57,22 @@ public class check {
         }
 
         // Selection :
-        @SuppressWarnings("Resource leak")
         Scanner s = new Scanner(System.in);
-        int selection;
+
+        /*
+         In console app can't patch the Ressource leack
+         Because close the Scanner which closes the underlying InputStream,
+         therefore the other Scanner can no longer read
+         from the same InputStream and a NoSuchElementException results
+        */
+
+        int selection = 0;
         System.out.println("Enter the elements you wan't to do:\n ");
-        selection = s.nextInt();
+        try {
+            selection = s.nextInt();
+        } catch (Exception e) {
+            System.out.println("Something went wrong.\n");
+        }
         return selection;
     }
 }

@@ -80,7 +80,7 @@ class Main {
 
         for (int j = 0; j < nbplayer; j++) {
             if (memScore[j] == max) {
-                System.out.println("Player" + (j + 1) + "win !");
+                System.out.println("Player" + (j + 1) + " win !");
             }
         }
 

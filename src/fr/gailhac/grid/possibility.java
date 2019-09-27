@@ -1,11 +1,13 @@
 package fr.gailhac.grid;
 
+import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
 class possibility {
 
     // Script for calculate
 
+    @Contract(pure = true)
     private static int test(@NotNull byte[] x, int n) {
         int cpt = 0;
 
@@ -31,6 +33,7 @@ class possibility {
         return 0;
     }
 
+    @Contract(pure = true)
     private static int sim(@NotNull byte[] x, int nb) {
 
         int count = 0;
@@ -41,6 +44,7 @@ class possibility {
         return count;
     }
 
+    @Contract(pure = true)
     private static int somme(@NotNull byte[] x, int n) {
         int somme = 0;
         for (byte b : x) {
@@ -54,6 +58,7 @@ class possibility {
         return 0;
     }
 
+    @Contract(pure = true)
     private static int total(@NotNull byte[] x) {
 
         int somme = 0;
@@ -66,41 +71,49 @@ class possibility {
 
     // All possibility of my grid
 
+    @Contract(pure = true)
     static int Aces(@NotNull byte[] x) {
 
         return test(x, 1);
     }
 
+    @Contract(pure = true)
     static int Twos(@NotNull byte[] x) {
 
         return test(x, 2);
     }
 
+    @Contract(pure = true)
     static int Threes(@NotNull byte[] x) {
 
         return test(x, 3);
     }
 
+    @Contract(pure = true)
     static int Fours(@NotNull byte[] x) {
 
         return test(x, 4);
     }
 
+    @Contract(pure = true)
     static int Fives(@NotNull byte[] x) {
 
         return test(x, 5);
     }
 
+    @Contract(pure = true)
     static int Sixes(@NotNull byte[] x) {
 
         return test(x, 6);
     }
 
+    @Contract(pure = true)
     static int Brelan(@NotNull byte[] x) {
         int n = 3;
         return somme(x, n);
     }
 
+    @Contract(pure = true)
     static int Carre(@NotNull byte[] x) {
         int n = 4;
         return somme(x, n);
@@ -125,6 +138,7 @@ class possibility {
 
     }
 
+    @Contract(pure = true)
     static int SmStraight(@NotNull byte[] x) {
         int valid3 = 0;
         int valid4 = 0;
@@ -176,6 +190,7 @@ class possibility {
         return 0;
     }
 
+    @Contract(pure = true)
     static int Yahtzee(@NotNull byte[] x) {
 
         for (byte b : x) {
@@ -186,6 +201,7 @@ class possibility {
         return 0;
     }
 
+    @Contract(pure = true)
     static int Chance(@NotNull byte[] x) {
         return total(x);
     }

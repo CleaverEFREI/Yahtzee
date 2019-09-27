@@ -1,20 +1,24 @@
 package fr.gailhac.grid;
 
+import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
 public class memory {
 
     // Init. memory :
+    @Contract(value = "_ -> new", pure = true)
     @NotNull
     public static int[][] iniMem(int Joueurs) {
         return new int[Joueurs][13];
     }
 
+    @Contract(value = "_ -> new", pure = true)
     @NotNull
     public static boolean[][] iniMemBool(int Joueurs) {
         return new boolean[Joueurs][13];
     }
 
+    @Contract(value = "_ -> new", pure = true)
     @NotNull
     public static int[] iniMemScore(int Joueurs) {
         return new int[Joueurs];
@@ -22,6 +26,7 @@ public class memory {
 
     // Max / Edit / Score mem. test / modify.
 
+    @Contract(pure = true)
     public static int max(@NotNull int[] t) {
         int maximum = t[0];   // start with the first value
         for (int i = 1; i < t.length; i++) {
@@ -100,11 +105,15 @@ public class memory {
                     tab[joueur][s - 1] = possibility.Chance(dice);
                 } else return -1;
                 break;
+            default:
+                return -1;
+
         }
         bool[joueur][s - 1] = true;
         return 1;
     }
 
+    @Contract(pure = true)
     public static int score(int[][] tab, int player) {
         int scr = 0;
         for (int j = 0; j <= 6; j++) {
