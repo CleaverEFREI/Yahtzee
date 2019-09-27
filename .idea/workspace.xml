@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d50925e-355b-4b4a-9311-d6d7dde12f23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/louis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/louis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Yahtzee_jar/Yahtzee.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Yahtzee_jar/Yahtzee.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/grid/possibility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/grid/possibility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/players/player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/fr/gailhac/players/player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/gailhac/dices/relance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/dices/relance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/gailhac/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/gailhac/players/player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/gailhac/players/player.java" afterDir="false" />
-    </list>
+    <list default="true" id="5d50925e-355b-4b4a-9311-d6d7dde12f23" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +159,7 @@
       <workItem from="1567718523513" duration="1966000" />
       <workItem from="1568302665673" duration="85000" />
       <workItem from="1568725869484" duration="55000" />
-      <workItem from="1569547237043" duration="5077000" />
+      <workItem from="1569547237043" duration="5397000" />
     </task>
     <task id="LOCAL-00001" summary="Dictionaries">
       <created>1567604122566</created>
@@ -241,7 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569551181598</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Litle patch on LgStraight how leave for 5 &amp; 6 &#10;(Error when My dices : [2, 4, 5, 1, 5])&#10;Now fix">
+      <created>1569552521486</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569552521486</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Final commit">
+      <created>1569552548179</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1569552548179</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +269,8 @@
     <MESSAGE value="Dictionaries" />
     <MESSAGE value="New version" />
     <MESSAGE value="Litle patch on LgStraight how leave for 5 &amp; 6 &#10;(Error when My dices : [2, 4, 5, 1, 5])&#10;Now fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Litle patch on LgStraight how leave for 5 &amp; 6 &#10;(Error when My dices : [2, 4, 5, 1, 5])&#10;Now fix" />
+    <MESSAGE value="Final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final commit" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
