@@ -1,4 +1,4 @@
 # Yahtzee
 
-Yahtzee project by Louis Gailhac
+Yahtzee project for Concordia by Louis Gailhac
  
